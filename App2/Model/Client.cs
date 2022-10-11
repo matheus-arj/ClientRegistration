@@ -8,17 +8,21 @@ namespace App2.Model
 {
     public class Client
     {
+        //Atributos:
         int Id;
         string FirstName;
         int Age;
+        long ClientCpf;
         Address Address;
 
-        public Client (int id, string firstName, int age, Address address)
+        //Construtor:
+        public Client (int id, string firstName, int age, long clientCpf, Address address)
         {
             Id = id;
             FirstName = firstName;
             Age = age;
-            Address = address;
+            ClientCpf = clientCpf;
+            Address = address;              
         }
     }
 
