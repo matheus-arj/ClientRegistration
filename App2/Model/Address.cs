@@ -22,5 +22,10 @@ namespace App2.Model
             Number = number;
             Complement = complement;
         }
+
+        public override string ToString()
+        {
+            return $"{nameof(Cep)}: {Cep}, {nameof(Street)}: {Street}, {nameof(Number)}: {Number}, {nameof(Complement)}: {Complement}";
+        }
     }
 }

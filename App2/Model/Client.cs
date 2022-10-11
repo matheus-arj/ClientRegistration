@@ -24,6 +24,11 @@ namespace App2.Model
             ClientCpf = clientCpf;
             Address = address;              
         }
+
+        public override string ToString()
+        {
+            return $"{nameof(Id)}: {Id}, {nameof(FirstName)}: {FirstName}, {nameof(Age)}: {Age}, {nameof(ClientCpf)}: {ClientCpf}, {nameof(Address)}: {Address}";
+        }
     }
 
 }
