@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Matheus Araujo\\.nuget\\packages\\": {}
+    "C:\\Users\\Diogo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus Araujo\\source\\repos\\App2\\App2\\App2.csproj",
+      "projectUniqueName": "C:\\Users\\Diogo\\Desktop\\ClientRegistration\\App2\\App2.csproj",
       "projectName": "App2",
-      "projectPath": "C:\\Users\\Matheus Araujo\\source\\repos\\App2\\App2\\App2.csproj",
-      "packagesPath": "C:\\Users\\Matheus Araujo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus Araujo\\source\\repos\\App2\\App2\\obj\\",
+      "projectPath": "C:\\Users\\Diogo\\Desktop\\ClientRegistration\\App2\\App2.csproj",
+      "packagesPath": "C:\\Users\\Diogo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Diogo\\Desktop\\ClientRegistration\\App2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Matheus Araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
