@@ -9,10 +9,10 @@ namespace App2.Model
     public class Address
     {
         //Atributos:
-        long Cep;
-        string Street;
-        int Number;
-        string Complement;
+        public long Cep;
+        public string Street;
+        public int Number;
+        public string Complement;
 
         //Construtor
         public Address(long cep, string street, int number, string complement)

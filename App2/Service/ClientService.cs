@@ -1,4 +1,6 @@
-﻿using System;
+﻿using App2.Storage;
+using App2.Model;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -22,13 +24,8 @@ namespace App2.Service
             {
                 return false;
             }
-            return true;
-        
-        
-
+            return true; 
         }
-
-
 
         public bool isAgeValid(int clientAge)
         {
@@ -38,6 +35,30 @@ namespace App2.Service
             } 
             return true;
          } 
+
+        public void list()
+        {
+            var newList = new Repository();
+            Console.WriteLine(newList);
+        }
+
+        public void isUservalid(Client client)
+        {
+            client.FirstName = upperName(client.FirstName);
+
+            bool ageValid;
+            bool cpfValid;
+
+            cpfValid = isCpfValid(client.ClientCpf);
+            ageValid = isAgeValid(client.Age);
+
+            if(ageValid && cpfValid)
+            {
+                Repository repository = new Repository();
+                repository.insertClient(client);
+            }
+
+        }
            
     }
 }
